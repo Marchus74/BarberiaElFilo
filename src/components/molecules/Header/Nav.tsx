@@ -9,7 +9,7 @@ const Logo = () => (
           to="/"
           className="text-gray-700 hover:text-blue-600 transition"
         >
-          Home
+          Homeless
         </Link>
       </li>
       <li>

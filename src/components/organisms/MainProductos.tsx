@@ -19,7 +19,7 @@ export default MainProductos;
 Key:
 - Le dice a React cuál elemento es cuál dentro de la lista.
 - Evita re-renderizados innecesarios.
-- Evita errores cuando React actualiza, agrega o elimina elementos.
+- Evita errores cuando React actualiza, agrega o elimina elementos.git 
 - Mejora el rendimiento.
 autopart.name:
 
