@@ -9,23 +9,23 @@ const Logo = () => (
           to="/"
           className="text-gray-700 hover:text-blue-600 transition"
         >
-          Homeless
+          Home
         </Link>
       </li>
       <li>
         <Link
-          to="/contacto"
+          to="/servicios"
           className="text-gray-700 hover:text-blue-600 transition"
         >
-          Contacto
+          Sevicios
         </Link>
       </li>
       <li>
         <Link
-          to="/sucursales"
+          to="/turnos"
           className="text-gray-700 hover:text-blue-600 transition"
         >
-          Sucursales
+          Turnos
         </Link>
       </li>
       <li>

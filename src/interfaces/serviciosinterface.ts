@@ -1,4 +1,4 @@
-export interface AutopartInterface {
+export interface ServiciosInterface {
     name: string;
     price: number;
     stock: number;

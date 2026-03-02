@@ -1,10 +1,10 @@
 import { createBrowserRouter } from "react-router-dom"
-import Home from "../components/pages/Home"
+import MainBarberia from "../components/pages/MainBarberia"
 import Error404 from "../components/pages/Error404"
 import Login from "../components/pages/Login"
-import Contacto from "../components/pages/Contacto"
-import Sucursales from "../components/pages/Sucursales"
 import Tempral from "../components/templates/Tempral"
+import MainTurnos from "../components/organisms/MainTurnos"
+import MainServicios from "../components/organisms/MainServicios"
 
 
 const router = createBrowserRouter([
@@ -17,19 +17,19 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <Home />,
+        element: <MainBarberia />,
         
       },
       {
-        path: "/contacto",
-        element: <Contacto />,
+        path: "/servicios",
+        element: <MainServicios />,
         
       },
       {
-        path: "/sucursales",
-        element: <Sucursales />,
+        path: "/turnos",
+        element: <MainTurnos />,
         
-      },
+      }
 
     ]
   },

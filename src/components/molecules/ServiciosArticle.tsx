@@ -1,7 +1,7 @@
-import type { AutopartInterface } from "../../interfaces/autopartinterface";
+import type { ServiciosInterface } from "../../interfaces/serviciosinterface";
 
 // Los componentes React siempre en PascalCase y con nombres claros.
-const AutopartArticle = ({ name, price, stock, img }: AutopartInterface) => {
+const ServiciosArticle = ({ name, price, stock, img }: ServiciosInterface) => {
   return (
     <article className="bg-white shadow-lg rounded-xl p-6 max-w-md mx-auto hover:shadow-xl transition-shadow duration-300">
       <img
@@ -13,17 +13,14 @@ const AutopartArticle = ({ name, price, stock, img }: AutopartInterface) => {
       <p className="text-gray-600 mb-1">
         <span className="font-medium">Precio:</span> ${price}
       </p>
-      <p className="text-gray-600 mb-4">
-        <span className="font-medium">Stock:</span> {stock}
-      </p>
+      
       <button className="w-full bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600 transition-colors duration-300">
         Comprar
       </button>
     </article>
   );
 };
-
-export default AutopartArticle;
+export default ServiciosArticle;
 // la interface no instacia al objeto, solo indica los tipos, cuando se crea el recorrido map
 // es donde se les pasa las props para instaciar el objeto 
 
